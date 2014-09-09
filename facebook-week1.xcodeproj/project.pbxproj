@@ -9,9 +9,18 @@
 /* Begin PBXBuildFile section */
 		182DEAA219B92889008C3D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAA119B92889008C3D5F /* AppDelegate.swift */; };
 		182DEAA419B92889008C3D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAA319B92889008C3D5F /* ViewController.swift */; };
-		182DEAA719B92889008C3D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182DEAA519B92889008C3D5F /* Main.storyboard */; };
-		182DEAA919B92889008C3D5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182DEAA819B92889008C3D5F /* Images.xcassets */; };
 		182DEAB519B92889008C3D5F /* facebook_week1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAB419B92889008C3D5F /* facebook_week1Tests.swift */; };
+		182DEABF19B929F8008C3D5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182DEABE19B929F8008C3D5F /* Images.xcassets */; };
+		182DEAC519B9375C008C3D5F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAC419B9375C008C3D5F /* MessagesViewController.swift */; };
+		182DEAC819B937A7008C3D5F /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAC719B937A7008C3D5F /* HomeFeedViewController.swift */; };
+		182DEACA19B937B9008C3D5F /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAC919B937B9008C3D5F /* RequestsViewController.swift */; };
+		182DEACC19B937CA008C3D5F /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEACB19B937CA008C3D5F /* NotificationsViewController.swift */; };
+		182DEACE19B937E4008C3D5F /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEACD19B937E4008C3D5F /* MoreViewController.swift */; };
+		182DEAD019BA6312008C3D5F /* ThrillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEACF19BA6312008C3D5F /* ThrillDetailViewController.swift */; };
+		182DEAD219BA6B88008C3D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182DEAD119BA6B88008C3D5F /* Main.storyboard */; };
+		182DEAD419BAC430008C3D5F /* UpdateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAD319BAC430008C3D5F /* UpdateStatusViewController.swift */; };
+		182DEAD619BBD744008C3D5F /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAD519BBD744008C3D5F /* CheckinViewController.swift */; };
+		182DEAD819BBD84E008C3D5F /* CheckIn2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DEAD719BBD84E008C3D5F /* CheckIn2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +38,20 @@
 		182DEAA019B92889008C3D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182DEAA119B92889008C3D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		182DEAA319B92889008C3D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		182DEAA619B92889008C3D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		182DEAA819B92889008C3D5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		182DEAAE19B92889008C3D5F /* facebook-week1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "facebook-week1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182DEAB319B92889008C3D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182DEAB419B92889008C3D5F /* facebook_week1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebook_week1Tests.swift; sourceTree = "<group>"; };
+		182DEABE19B929F8008C3D5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		182DEAC419B9375C008C3D5F /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesViewController.swift; path = ../MessagesViewController.swift; sourceTree = "<group>"; };
+		182DEAC719B937A7008C3D5F /* HomeFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
+		182DEAC919B937B9008C3D5F /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		182DEACB19B937CA008C3D5F /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		182DEACD19B937E4008C3D5F /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		182DEACF19BA6312008C3D5F /* ThrillDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillDetailViewController.swift; sourceTree = "<group>"; };
+		182DEAD119BA6B88008C3D5F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		182DEAD319BAC430008C3D5F /* UpdateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateStatusViewController.swift; sourceTree = "<group>"; };
+		182DEAD519BBD744008C3D5F /* CheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
+		182DEAD719BBD84E008C3D5F /* CheckIn2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckIn2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +93,11 @@
 		182DEA9E19B92889008C3D5F /* facebook-week1 */ = {
 			isa = PBXGroup;
 			children = (
+				182DEAC619B93765008C3D5F /* ViewControllers */,
+				182DEABE19B929F8008C3D5F /* Images.xcassets */,
 				182DEAA119B92889008C3D5F /* AppDelegate.swift */,
 				182DEAA319B92889008C3D5F /* ViewController.swift */,
-				182DEAA519B92889008C3D5F /* Main.storyboard */,
-				182DEAA819B92889008C3D5F /* Images.xcassets */,
+				182DEAD119BA6B88008C3D5F /* Main.storyboard */,
 				182DEA9F19B92889008C3D5F /* Supporting Files */,
 			);
 			path = "facebook-week1";
@@ -107,6 +126,22 @@
 				182DEAB319B92889008C3D5F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182DEAC619B93765008C3D5F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				182DEAC419B9375C008C3D5F /* MessagesViewController.swift */,
+				182DEACD19B937E4008C3D5F /* MoreViewController.swift */,
+				182DEAC719B937A7008C3D5F /* HomeFeedViewController.swift */,
+				182DEAC919B937B9008C3D5F /* RequestsViewController.swift */,
+				182DEACB19B937CA008C3D5F /* NotificationsViewController.swift */,
+				182DEACF19BA6312008C3D5F /* ThrillDetailViewController.swift */,
+				182DEAD319BAC430008C3D5F /* UpdateStatusViewController.swift */,
+				182DEAD519BBD744008C3D5F /* CheckinViewController.swift */,
+				182DEAD719BBD84E008C3D5F /* CheckIn2ViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182DEAA719B92889008C3D5F /* Main.storyboard in Resources */,
-				182DEAA919B92889008C3D5F /* Images.xcassets in Resources */,
+				182DEABF19B929F8008C3D5F /* Images.xcassets in Resources */,
+				182DEAD219BA6B88008C3D5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +243,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182DEAD019BA6312008C3D5F /* ThrillDetailViewController.swift in Sources */,
+				182DEACE19B937E4008C3D5F /* MoreViewController.swift in Sources */,
+				182DEACA19B937B9008C3D5F /* RequestsViewController.swift in Sources */,
+				182DEAC519B9375C008C3D5F /* MessagesViewController.swift in Sources */,
 				182DEAA419B92889008C3D5F /* ViewController.swift in Sources */,
+				182DEAD419BAC430008C3D5F /* UpdateStatusViewController.swift in Sources */,
+				182DEACC19B937CA008C3D5F /* NotificationsViewController.swift in Sources */,
 				182DEAA219B92889008C3D5F /* AppDelegate.swift in Sources */,
+				182DEAD619BBD744008C3D5F /* CheckinViewController.swift in Sources */,
+				182DEAC819B937A7008C3D5F /* HomeFeedViewController.swift in Sources */,
+				182DEAD819BBD84E008C3D5F /* CheckIn2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,17 +274,6 @@
 			targetProxy = 182DEAAF19B92889008C3D5F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		182DEAA519B92889008C3D5F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				182DEAA619B92889008C3D5F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		182DEAB619B92889008C3D5F /* Debug */ = {
